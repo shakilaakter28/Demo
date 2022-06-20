@@ -1,0 +1,308 @@
+body{
+	background-color: #f9f6f4;
+    background-image: url(../images/back.jpg);
+	background-repeat: no-repeat;
+	margin-top: 500px;
+
+}
+.box4{
+	color: tomato;
+	background-color: black;
+	font-size: 35px;
+	position: sticky;
+	top: 0;
+	text-align: center;
+}
+
+h1{
+    color: skyblue;
+    background-color: darkred;
+}
+.header{
+    color: skyblue;
+    display: inline;
+    font-size: 22px;
+    background-color: darkred;
+
+}
+.p1{
+    color: darkred;
+}
+#doc{
+    color: darkred;
+}
+.center{
+      color: darkred;
+
+}
+.large{
+    color: darkred;
+    font-size: 40px;
+
+}
+.h3{
+    font-weight: 30px;
+    font-size: 25px;
+    color: darkred;
+    background-color: skyblue;
+    border: darkred solid 2px;
+    
+}
+.one{
+   
+   border:5px darkred solid ;
+}
+.two{
+	
+	border: medium solid darkred;
+
+}
+.three{
+   border-style: dotted;
+   border-color: darkred;
+   border-width: 2px;
+}
+.four{
+   border-style: dotted;
+   border-width: thick;
+   border-color: darkred;
+}
+.five{
+  border-style: double;
+  border-width: thick;
+  border-color: darkred;
+}
+.six{
+ border-style: double;
+ border-color: darkred;
+ border-width: 15px;
+}
+.seven{
+	border-color: darkred;
+	border-style: groove;
+	border-width: 20px;
+}
+.eight{
+	border-color: darkred;
+	border-style: solid;
+	border-top-width: 15px;
+}
+.nine{
+	border-color: darkred;
+	border-style: solid;
+	border-bottom-width: 15px;
+}
+.ten{
+	border-color: darkred;
+	border-style: solid;
+	border-left-width: 15px;
+	border-right-width: 15px;
+}
+.mix{
+	border-color: darkred;
+	border-style: dotted dashed solid double;
+	border-width: 5px;
+}
+.none{
+	border-style: solid;
+	border-top-style: none;
+	border-color: darkred;
+}
+.inset{
+	border-color: darkred #d31eb3 #2fbd41 #e1c90e;
+	border-style: solid;
+	border-width: 7px;
+
+}
+.eleven{
+	border: 6px solid darkred;
+	border-radius: 20px;
+	padding: 5px;
+}
+.margin{
+	color: darkred;
+	background-color: skyblue;
+	border: 5px solid darkred;
+	margin-top: 20px;
+	margin-right: 150px;
+	margin-left: 150px;
+	margin-bottom: 20px;
+}
+.padding{
+	color: skyblue;
+	background-color: darkred;
+	border: 5px solid skyblue;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.height{
+	min-height: 10px;
+	color: darkred;
+	background-color: skyblue;
+
+}
+.image{
+	width: 50%;
+	height: 50%;
+}
+.box{
+	color: darkred;
+	background-color: skyblue;
+	border: 15px solid darkred;
+	width: 200px;
+	margin: 30px;
+	padding: 30px;
+	font-weight: bold;
+	font-family: !important;
+}
+.outline{
+	margin: 20px;
+	border: 5px solid darkred;
+	outline: 5px dashed darkblue;
+	outline-offset: 6px;
+
+}
+.s1{
+	text-decoration: underline darkred double;
+}
+.s2{
+	color: darkred;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.s3{
+	text-transform: lowercase;
+	font-weight: bold;
+}
+.s4{
+	color: darkred;
+	text-transform: capitalize;
+	font-weight: bold;
+}
+.s5{
+	color: darkblue;
+	text-indent: 60px;
+	font-weight: bold;
+}
+.s6{
+	
+	letter-spacing: 5px;
+	font-weight: bold;
+}
+.s7{
+	color: darkred;
+	letter-spacing: -1px;
+	font-weight: bold;
+}
+.s8{
+	color: darkblue;
+	font-weight: bold;
+	line-height: 0.7;
+}
+.s9{
+	word-spacing: 10px;
+	font-weight: bold;
+}
+.s10{
+	color: black;
+	font-weight: bold;
+	font-size: 30px;
+	text-shadow: 2px  1px darkred;
+}
+.s11{
+	font-family: ;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.s13{
+
+}
+.fa-solid{
+	font-size: 70px;
+	color: darkblue;
+}
+.fa-heart{
+	font-size: 70px;
+	color: red;
+	margin-left: 15px;
+}
+a{
+	color: skyblue;
+	background-color: darkred;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 10px;
+}
+a:hover{
+	color: white;
+	background-color: black;
+}
+a:active{
+	color: hotpink;
+}
+a:visited{
+	color: tomato;
+	background-color: black;
+}
+ul{
+	list-style-type: decimal-leading-zero;
+}
+table,th,td{
+	border: 3px solid darkred;
+	border-collapse: collapse;
+	text-align: left;
+}
+
+table{
+	width: 100px;
+}
+th,td{
+	color: darkblue;
+}
+.s12{
+   width: 150px;
+  height: 200px;
+   border: 5px solid darkblue;
+  overflow: scroll;
+  margin-left: 20px;
+}
+.box2{
+	width: 350px;
+	height: 180px;
+	background-color: green;
+	position: relative;
+
+}
+.box3{
+	width: 150px;
+	height: 150px;
+	background-color: red;
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	border-radius: 80px;
+}
+
+
+.box5{
+	color: darkred;
+	text-align: center;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
